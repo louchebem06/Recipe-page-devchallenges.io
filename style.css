@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: auto;
+	padding: 2%;
+	max-width: 1200px;
+	display: block;
+}
+
+h1 {
+	font-family: 'Playfair Display';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 64px;
+	color: #000000;
+}
+
+.first-p img {
+	display: block;
+	margin-top: 5px;
+}
+
+.first-p {
+	display: flex;
+	max-width: 592px;
+	font-family: 'Montserrat';
+	font-style: italic;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 17px;
+	color: #4F4F4F;
+	gap:10px;
+	align-items: flex-start;
+	padding: 2% 0 2% 0;
+}
+
+#hero {
+	display: block;
+	width: 100%;
+	padding: 2% 0 2% 0;
+}
+
+footer {
+	margin-bottom: 1%;
+	margin-top: 2%;
+}
+
+footer, footer a{
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 17px;
+	color: #BDBDBD;
+	text-align: center;
+}
+
+footer a {
+	text-decoration: underline;
+}
+
+.content {
+	display: flex;
+	justify-content: space-between;
+}
+
+.recipe h3 {
+	font-family: 'Playfair Display';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 32px;
+	color: #333333;
+	margin: 4% 0 4% 0;
+}
+
+.recipe h4 {
+	font-family: 'Playfair Display';
+	font-style: italic;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 24px;
+	color: #333333;
+	margin: 4% 0 4% 0;
+}
+
+.recipe h5 {
+	font-family: 'Montserrat';
+	font-style: italic;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 150%;
+	color: #BDBDBD;
+	margin: 10% 0 10% 0;
+}
+
+.recipe p {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 25px;
+	color: #333333;
+}
+
+.recipe {
+	max-width: 60%;
+}
+
+.instruction {
+	display: flex;
+	gap: 10px;
+	align-items: flex-start;
+	margin: 0.5% 0 0.5% 0;
+}
+
+.instruction input {
+	margin-top: 5px;
+	width: 16px;
+	height: 16px;
+}
+
+.instruction p {
+	max-width: 554px;
+}
+
+.step p {
+	max-width: 528px;
+}
+
+.step {
+	display: flex;
+	gap: 20px;
+	margin: 2% 0 2% 0;
+}
+
+.step p:first-child {
+	background: #F2994A;
+	border-radius: 6px;
+	width: 36px;
+	height: 36px;
+	font-family: 'Playfair Display';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 32px;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+.info {
+	max-width: 20%;
+	padding: 5% 10% 0 10%;
+}
+
+.element {
+	display: flex;
+	gap: 10px;
+	margin-bottom: 30%;
+}
+
+.info .element:first-child .list p:nth-child(2),
+.info .element:first-child span {
+	color: #F2994A;
+}
+
+.element .list p:first-child {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 10px;
+	line-height: 12px;
+	text-transform: uppercase;
+	color: #BDBDBD;
+}
+
+.element .list p {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 17px;
+	color: #333333;
+}
