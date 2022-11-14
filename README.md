@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://jolcwij.cluster029.hosting.ovh.net/devchallenge.io/recipe/recipe.html">
+    <a href="https://recipe.bryanledda.fr/">
       Demo
     </a>
     <span> | </span>
